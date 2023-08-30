@@ -1,0 +1,208 @@
+/* ----- PC VERSION -----------------------------------------------*/
+@media screen and (min-width: 850px) {
+/*----- GENERALE ----------------------*/
+#Registration_page {
+    margin-top: 4rem;
+ }
+
+#Registration_content {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    flex-direction: column;
+ }
+
+/*----- TITLE ----------------------*/
+#registrationHeader{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 2.5rem;
+    margin: 1rem auto; }
+    
+#registrationHeader p { 
+    margin: auto;
+    font-size: 20px;
+}
+
+/*----- NAVIGATION -----------------*/
+#Registration_nav {
+    display: flex;
+    flex-direction: row; 
+    margin: auto; }
+
+#Registration_nav button{ 
+    margin: 0 1rem ;
+    width: 14rem;
+    height: 3rem;
+    border-radius: 4px;
+    border: none;
+    font-size: 22px;
+}
+#Registration_nav button:hover{
+    cursor: pointer;
+    box-shadow: inset gray 1px 1px 2px 1px;
+ }
+
+/*----- FORMULARY -------------------*/
+#Registration_form {
+    display: flex;
+    flex-direction: column;
+    margin: auto; }
+
+#Registration_form input, #Registration_form select  {
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    width: 90%;
+    padding-left: 0.5rem;
+    height: 2rem;
+    font-size: 18px; }
+
+#Registration_form label {
+    margin-bottom: 0.5rem;
+    font-size: 18px; }
+
+/*----- REGISTRATION BUTTON ----------*/
+#Registration_form #button { 
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 3rem;
+    margin: auto;
+    border: none;
+    border-radius: 4px;
+ }
+ #Registration_form #button p { 
+    margin: auto;
+    font-size: 28px;
+ }
+
+#Registration_form #button:hover{
+    cursor: pointer;
+    box-shadow: inset gray 1px 1px 2px 1px; }
+}
+#Form_comfirmation{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    border: 3px solid;
+    padding: 2rem;
+    margin-top: 20%;
+    border-radius: 4px;
+}
+#Form_comfirmation p {
+    margin: 0.5rem auto;
+    font-size: 26px;
+}
+/* ----- MOBILE VERSION -----------------------------------------------*/
+@media screen and (max-width: 1100px) { 
+/*----- GENERALE ----------------------*/
+#Registration_page {
+    margin-top: 2rem;
+ }
+
+#Registration_content {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    flex-direction: column;
+ }
+/*----- TITLE ----------------------*/
+#registrationHeader{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 2.5rem;
+    margin: 1rem auto; }
+
+#registrationHeader p { 
+    margin: auto;
+    font-size: 20px;
+}
+
+/*----- NAVIGATION -----------------*/
+#Registration_nav {
+    display: flex;
+    flex-direction: row; 
+    margin: auto; }
+
+#Registration_nav button{ 
+    margin: 0 1rem ;
+    width: 8rem;
+    height: 2.5rem;
+    border-radius: 4px;
+    border: none;
+    font-size: 18px;
+}
+#Registration_nav button:hover{
+    cursor: pointer;
+    box-shadow: inset gray 1px 1px 2px 1px;
+ }
+
+/*----- FORMULARY -------------------*/
+#Registration_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;}
+
+#Registration_form input  {
+    width: 90%;
+    padding-left: 0.5rem;
+    border: 1px solid;
+    border-radius: 4px;
+    height: 1.6rem;
+    font-size: 16px;
+    margin: auto;  }
+
+#Registration_form select {
+    width: 93%;
+    height: 2rem;
+    padding-left: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid;
+    font-size: 16px;
+    margin: auto; }
+
+#Registration_form label {
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+    font-size: 16px; }
+
+#Form_comfirmation{
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    border: 3px solid;
+    padding: 2rem;
+    margin-top: 50%;
+    border-radius: 4px;
+}
+#Form_comfirmation p {
+    margin: 0.5rem auto;
+    font-size: 22px;
+}
+/*----- REGISTRATION BUTTON ----------*/
+#Registration_form #button { 
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    height: 3rem;
+    margin: auto;
+    border: none;
+    border-radius: 4px;
+ }
+ #Registration_form #button p { 
+    margin: auto;
+    font-size: 24px;
+ }
+
+#Registration_form #button:hover{
+    cursor: pointer;
+    box-shadow: inset gray 1px 1px 2px 1px; }
+
+
+}

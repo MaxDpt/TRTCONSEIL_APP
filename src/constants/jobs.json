@@ -1,0 +1,13 @@
+[
+    {"job": "Barman/barmaid"},
+    {"job": "Cuisinier/Cuisinière"},
+    {"job": "Chef de rang"},
+    {"job": "Commis/Commise de rang "},
+    {"job": "Directeur/Directrice"},
+    {"job": "Femme/Valet de chambre"},
+    {"job": "Serveur/Serveuse"},
+    {"job": "Maître/Maîtresse d'hôtel"},
+    {"job": "Pâtissier/Pâtissière"},
+    {"job": "Réceptionniste"},
+    {"job": "Sommelier/Sommelière"}
+]

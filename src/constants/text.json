@@ -1,0 +1,35 @@
+
+{
+    "Error_Password_Number": "The password must contain a number",
+    "Error_Password_Uppercase": "The password must contain a capital letter",
+    "Error_Password_Short": "The password is too short, eight character minimum ",
+    "Error_PostalCode_Invalid": "The postal code must be between five digits.",
+    "Error_Salary_Invalid": "The salary must contain only numbers",
+    "Error_Hourly_Invalid": "The hours must contain only digits",
+    "Error_Formulary_Empty": "Empty field. All fields are required",
+    "Error_Login_Invalid": "Incorrect ID. email or password is invalid.",
+    "Error_Account_NotActivated": "Your account is not yet active. Our service is still processing your registration request.",
+    "Error_Text_Length_60": "must contain 60 characters maximum",
+    "Error_Text_Length_260": "must contain 260 characters maximum",
+    "Error_Text_Length_4000": "must contain 4000 characters maximum",
+    "Error_Postulate": "You have already applied for this position. You cannot apply again.",
+
+    "Text_Approve_Registration": "Do you want to approve this registration ?",
+    "Text_Reject_Registration": "Do you want to reject this registration ?",
+    "Text_Approve_Advertisement": "Do you want to approve this ad ?",
+    "Text_Reject_Advertisement": "Do you want to reject this ad ?",
+    "Text_Approve_Candidaty": "Do you want to approve this application ?",
+    "Text_Reject_Candidaty": "Do you want to reject this application ?",
+    "Text_Postulate": "Do you want to confirm the application ?",
+    "Text_Home01": "Nous nous présentons à vous, en temps que nouvelle agence de recrutement depuis 2023. spécialisé dans la restauration avec plus de 150 partenaire actif sur notre site, nous offrons une interface fiable et un service premium à tous moment.",
+    "Text_Home02": "Nos conseillés sauront vous accompagner dans toutes vos démarche et assurer la garantie de mener à bien vos recherches. Grâce à un traitement personalisé, toutes vos requètes seront transmise avec pertinance. ",
+    "Text_Home03": "Que vous soyez à la recherche de personels, de collaborateurs ou d'un emploi. Vous êtes au bonne endroit.",
+    "Text_Home04": "Rejoignez-nous en vous inscrivent et gagné du temp pour vous consacrer à vos projets. ",
+    "Text_Home05": "Pour vous inscrire. Remettez-nous le formulaire d'inscription via la page d'enregistrement dedié en cliquant sur l'onglet S'inscrire en haut de page. Votre demande d'inscription sera vérifier avant que votre compte ne soit actif. Un email vous sera envoyé dès que la demande sera traité.",
+    "Text_Home06": "Rassurez vous, nous vous garantissons une réponse dans les 24 heures."
+}
+
+
+
+   
+

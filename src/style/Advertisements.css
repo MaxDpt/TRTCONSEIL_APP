@@ -1,0 +1,636 @@
+
+@media screen and (min-width: 850px) {
+/*----- ADVERTISEMENTS RECRUITER PAGE -------------*/
+/*----- GENERAL ------*/
+#Advertisements_recruiters {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;}
+
+/*----- FORMULARY ---------------------------------------*/
+.Advertisement_form_header {
+    display: flex;
+    width: 50%;
+    height: 4rem;
+    position: fixed;
+    top: 7rem;
+    right: 0;
+    z-index: 3;
+}
+.Advertisement_form_header p {
+    margin: auto;
+    font-size: 24px;
+}
+#Advertisement_form_content { 
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 0;
+    width: 49.9%;
+    top: 10.5rem;
+    bottom: 0;
+    overflow: scroll;
+    z-index: 2; }
+
+#Advertisement_form_store {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 99%;
+    margin: 0 auto;
+    margin-top: 0.75rem;
+    padding: 1rem 0;
+    border-radius: 2px;
+    z-index: 2;
+    margin-bottom: 1rem;
+}
+#store_name {
+    text-align: center;
+    margin: 0.5rem auto;
+    font-size: 28px;
+} 
+#store_info { 
+    margin: 0.5rem auto;
+    font-size: 22px;
+    text-align: center;
+}
+
+#Advertisement_form_page {
+    display: flex;
+    flex-direction: row;
+    z-index: 2; }
+    
+#Advertisement_form {
+    width: 80%;
+    margin: 0 auto; }
+
+#Advertisement_form input, #Advertisement_form select   {
+    margin-top: 0.5rem;
+    width: 100%;
+    padding-left: 0.5rem;
+    height: 1.5rem;
+    font-size: 18px;
+    border-radius: 4px;
+    border: none; }
+
+#Advertisement_form  textarea {
+    margin-top: 0.5rem;
+    width: 100%;
+    height: 12rem;
+    margin: auto;
+    padding-left: 0.5rem;
+    font-size: 12px;
+    border-radius: 4px;
+    border: none;
+    z-index: 2; 
+}
+
+#Advertisement_form label {
+    font-size: 20px;
+    margin: 0.5rem; }
+
+/*----- BUTTON ------*/
+#Advertisement_form_changeStore {
+    position: fixed;
+    background-color: transparent;
+    top: 7rem;
+    left: 50%;
+    width: 4rem;
+    height: 4rem;
+    padding: 1rem;
+    z-index: 4;
+    border: none; }
+
+#Advertisement_form_changeStore:hover { 
+    cursor: pointer;}
+
+#Advertisement_form #registrer_btn {
+    display: flex;
+    width: 100%; }
+
+#registrer_btn button {
+    position: fixed;
+    background-color: transparent;
+    top: 7rem;
+    right: 0;
+    width: 4rem;
+    height: 4rem;
+    padding: 1rem;
+    z-index: 4;
+    border: none; }
+
+ #registrer_btn button:hover { 
+    cursor: pointer; }
+
+/*----- ADVERTISEMENTS PAGE ------------------------------------*/
+/*----- GENERAL ------*/
+
+#Advertisement_page {
+    margin-top: -1.1rem;
+    height: 100%;
+}
+
+#Advertisement_page_content {
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: row;
+
+}
+#publications_list_content {
+    margin-top: 6.5rem;
+}
+
+/*----- ADVERTISEMENTS DETAILS -------------------------*/
+/*----- GENERAL ------*/
+.Advertisements_details {
+    display: flex;
+    position: fixed;
+    overflow: scroll;
+    top: 3rem;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    z-index: 1; }
+    
+.Advertisements_details_small {
+    display: flex;
+    position: fixed;
+    overflow: scroll;
+    top: 7rem;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    z-index: 1; }
+.Advertisements_details_middle {
+    top: 7rem;
+}
+#Advertisements_details_content {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+/*----- HEADER ------*/
+.Advertisements_details_close {
+    display: flex;
+    position: fixed;
+    background-color: inherit;
+    top: 7rem;
+    left: 50%;
+    width: 4rem;
+    padding: 1rem;
+    justify-content: center;
+    z-index: 4;
+    font-size: 30px;
+    border: none;
+    border-radius: 4px;
+}
+#icon_close, #icon_Back {
+    width: 34px;
+    height: 34px;
+}
+
+.Advertisements_details_close_up {
+    top: 3.2rem;
+}
+.Advertisements_details_close:hover { 
+    cursor: pointer;
+}
+
+#Advertisements_details_header {
+    display: flex;
+    position: fixed;
+    right: 0;
+    width: 50%;
+    height: 4rem; }
+
+#Advertisements_details_header p {
+    font-size: 30px;
+    margin:  1rem auto;
+}
+
+.Advertisements_details_Postulate {
+    position: fixed;
+    right: 0rem;
+    top: 3.5rem;
+    width: 8rem;
+    height: 3rem;
+    border: none;
+    border-radius: 2px;
+    font-size: 20px; }
+
+.Advertisements_details_Postulate_middle {
+    position: fixed;
+    right: 0rem;
+    top: 7.5rem;
+    width: 8rem;
+    height: 3rem;
+    border: none;
+    border-radius: 2px;
+    font-size: 20px;
+}
+
+#Advertisements_details_header button:hover { 
+    cursor: pointer;
+    box-shadow: inset gray 1px 1px 3px 1px;
+}
+/*----- INFO ------*/
+
+#Advertisements_details {
+    display: flex;
+    flex-direction: column;
+}
+#Advertisements_details_info {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto ;
+    margin-top: 4.25rem;
+    width: 99%;
+    height: 100%;
+    border-radius: 2px; }
+
+#Advertisements_details_left, #Advertisements_details_right {
+    width: 100%;
+    height: 13rem;
+    margin: 0.25rem;
+    padding-bottom: 1rem;
+}
+
+#Advertisements_details_left p, #Advertisements_details_right p {
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+}
+
+.Advertisements_details_details {
+    display: flex;
+    width: 99.9%;
+    margin: 0 auto;
+    padding-bottom: 10rem;
+}
+.Advertisements_details_details_small {
+    display: flex;
+    width: 99.9%;
+    margin: 0 auto;
+}
+.Advertisements_details_details #text { 
+    border-radius: 2px;
+    width: 99%;
+    height: 90%;
+    min-height: 30rem;
+    margin: auto;
+    margin-top: 0.25rem;
+    white-space: pre;
+    overflow: scroll;
+}
+.Advertisements_details_details #text { 
+    white-space: pre;
+}
+.Advertisements_details_details #text p {
+    font-size: 20px;
+    padding-left: 1rem;
+}
+/*----- EMPTY ------*/
+.Advertisements_details_Empty {
+    display: flex;
+    position: fixed;
+    top: 0rem;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    z-index: 0;
+}
+.Advertisements_details_Empty_small {
+    display: flex;
+    position: fixed;
+    top: 0rem;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    z-index: 0;
+}
+/*----- CONFIRMATION ----------------------------*/
+.Advertisements_details #confirmation {
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,70%);
+    z-index: 4; }
+
+.Advertisements_details #confirmation #confirmation_content {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    border-radius: 10px ;
+    width: 40%;
+    z-index: 5; }
+
+#confirmation_content #title { 
+    display: flex;
+    width: 100%;
+    height: 3.5rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    justify-content: center; }
+
+#confirmation_content #title h1 { 
+    margin-top: 0.5rem; } 
+
+#confirmation_content p { 
+    margin: 2rem auto;
+    font-size: 24px; }
+
+#confirmation_content_btns {
+    display: flex;
+    width: 100%;
+    justify-content: center; } 
+
+#confirmation_content_btns button { 
+    width: 30%;
+    height: 3rem;
+    margin: 1rem;
+    font-size: 24px;
+    border: none;
+    border-radius: 2px; }
+
+#confirmation_content_btns button:hover { 
+    cursor: pointer;
+    box-shadow: inset gray 1px 1px 3px 2px; }
+
+/*----- ADVERTISEMENTS MAP ------------------------------*/
+/*----- FILTER ------*/
+
+#search_filter_content {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 50%;
+    height: 4rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    z-index: 3;
+}
+#search_filter_content_down {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 12rem;
+    width: 50%;
+    height: 4rem;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    z-index: 3;
+}
+
+#search {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: auto;
+}
+
+#search_filter {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: auto;
+}
+#search_filter form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+#filter {
+    display: flex;
+    width: 98%;
+    margin: auto;
+}
+#search_filter input { 
+    width: 98.5%;
+    height: 1.5rem;
+    margin-top: 0.5rem;
+    margin: auto;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    text-align: center;
+}
+#search_filter select { 
+    border-radius: 4px;
+    border: none;
+    width: 47%;
+    margin: auto;
+    height: 1.5rem;
+    margin-top: 0.5rem;
+} 
+
+#search_filter #search_btn {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    border: none;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    height: 1.6rem;
+    width: 2.5rem;
+}
+#search_filter #search_btn p{ 
+    margin: auto;
+    margin-top: 0.2rem;
+}
+/*----- PAGINATIONS ------*/
+#pagination_content, #pagination_content_end {
+    width: 50%;
+}
+.pagination_content {
+    width: 50%;
+    margin-top: -0.5rem;
+}
+.pagination_content_down {
+    position: absolute ;
+    margin-top: 4rem;
+    width: 50%;
+}
+#paginations{
+    display: flex;
+    justify-content: center;
+}
+#paginations p { font-size: 20px; }
+
+#paginations button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+    height: 2rem;
+    margin: auto 6rem;
+ }
+#paginations button:hover { cursor: pointer;}
+
+/*----- MAP -----------*/
+.Advertisements_map_content {
+    width: 50%;
+    height: 100%;
+    margin-top: 7rem; }
+
+.Advertisements_map_content_up {
+    margin-top: -1rem;
+}
+.Advertisements_map_content_middle {
+    margin-top: 3rem;
+}
+.Advertisements_map_content_profil {
+    margin-top: 9rem;
+}
+.Advertisements_rows, .Advertisements_rows_select {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem 0;
+    margin-right: 1px;
+    box-shadow: black 1px 1px 3px 1px;
+    height: 10rem; }
+
+.Advertisements_rows:hover, .Advertisements_rows_select:hover { 
+    cursor: pointer; }
+
+.Advertisements_rows p, .Advertisements_rows_select p {
+    margin: auto 1rem; }
+
+#Advertisements_row_title {
+    display: flex;
+    flex-direction: row;
+}
+#Advertisements_row_title #p_profilImage {
+    margin-left: 1rem;
+    border-radius: 100%;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position-y: center;
+    z-index: 1; }
+
+#Advertisements_row_title #p_profilImage_Default {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: 1rem;
+    border-radius: 100%;
+    z-index: 1;
+    }
+#Advertisements_row_title #p_profilImage_Default p { 
+    margin: auto;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+#row_title {
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0.5rem 0 ;
+}
+
+#row_detail {
+    font-size: 18px;
+    width: 90%;
+    height: 7rem;
+    padding: 0.5rem 1rem ;
+    overflow: hidden;
+}
+
+#row_date {
+    font-size: 14px;
+    padding: 0.5rem 0 ;
+}
+#row_clic {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+#Advertisements_btns {
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    margin: 0 0.5rem; }
+
+#Advertisements_btns button{
+    margin: auto 1rem;
+    background-color: inherit;
+    width: 3rem;
+    height: 100%;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px; }
+
+#Advertisements_btns button:hover { 
+    cursor: pointer; }
+
+}
+
+#icon_Add {
+    width: 34px;
+    height: 34px;
+}
+
+#icon_EmptyStar, #icon_Approve, #icon_Reject {
+    width: 22px;
+    height: 22px;
+}
+#icon_FullStar {
+    width: 22px;
+    height: 22px;
+}
+
+@media screen and (min-width: 850px) and (max-width: 1380px) { 
+/*----- INFO -----------*/
+    #Advertisements_details_header p {
+        font-size: 18px;
+        margin: auto;}
+        
+    #Advertisements_details_left, #Advertisements_details_right {
+        height: 10rem;}
+
+    #Advertisements_details_left p, #Advertisements_details_right p { 
+        font-size: 16px;}
+
+    .Advertisements_details_details {
+        top: 19rem;}
+
+    .Advertisements_details_details_small {
+        top: 23rem;}
+
+    .Advertisements_details_details #text p {
+        font-size: 16px;}
+
+    .Advertisements_details_close {
+            
+            width: 4rem;
+            padding: 1rem;
+            font-size: 16px;
+        }
+
+/*----- MAP -----------*/
+    #row_title {
+        font-size: 14px;
+    }
+
+    #row_detail {
+        font-size: 14px;
+    }
+/*----- PAGINATION -----------*/
+    #paginations p { font-size: 14px; }
+
+    #paginations button {
+        height: 1rem;
+        margin: auto 3rem;
+        }
+
+}

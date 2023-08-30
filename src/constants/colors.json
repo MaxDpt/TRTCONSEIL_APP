@@ -1,0 +1,20 @@
+{
+    "HeaderColor": "#ffffff", 
+    "BackgroundColor3": "#dedede",
+    "BackgroundColor2": "#000000",
+    "BackgroundColor": "#ffffff",
+    "BackgroundColor_selected": "#bdc9db",
+    "TextColor01": "#2b2947",
+    "TextColor02": "#ffffff",
+    "TextColor03": "#acacac",
+    "TextColor01_Hover": "#ffffff",
+    "ChangeColor": "#3d8abe",
+    "ValideColor": "#a0c88a",
+    "ErrorMessage": "#e09090",
+    "FavoriteColor": "#f7d560",
+    "default_profilImage01": "#64a8d5",
+    "default_profilImage02": "#8361b0",
+    "default_profilImage03": "#2ca44e",
+    "default_profilImage04": "#d69039"
+
+}

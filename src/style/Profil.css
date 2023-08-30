@@ -1,0 +1,273 @@
+/* ----- PC VERSION -----------------------------------------------*/
+@media screen and (min-width: 850px) {
+#Profil_nav {
+   display: flex;
+   position: fixed;
+   flex-direction: row;
+   justify-content: space-between;
+   margin-top: -2rem;
+   width: 100%; 
+   height: 4rem;
+   z-index: 2;
+}
+#Profil_nav button { 
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 4rem;
+    border: none;
+    font-size: 26px;
+}
+#Profil_nav button { cursor: pointer; }
+
+#stores_content {
+    margin-top: -1rem;
+}
+
+#pdf_view {
+    position: fixed;
+    top: 7rem;
+    left: 0rem;
+    bottom: 0;
+    width: 50%;
+
+}
+#Empty_cv {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 10.8rem;
+    left: 0rem;
+    bottom: 0;
+    width: 50%;
+    border-right: 2px solid white;
+}
+#Empty_cv #icon_Pdf {
+    width: 100%;
+    height: 50%;
+    margin-top: 45%;
+}
+
+.CV_content_header button {
+    margin-left: 4rem;
+    border: none;
+    background-color: transparent;
+}
+.CV_content_header button:hover {
+    cursor: pointer;
+}
+#cvName, #fileName{
+    margin: auto 1rem;
+    font-size: 18px;
+}
+.CV_content_header input  {
+    position: fixed;
+    top: 7rem;
+    left: 0rem;
+    height: 3.75rem;
+    width: 4rem;
+    opacity: 0;
+    border: 1px solid;
+    z-index: 5;
+}
+.CV_content_header input:hover, .CV_content_header #fileIcon:hover  {
+    cursor: pointer;
+ }
+.CV_content_header #fileIcon   { 
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    padding: 0.75rem;
+    top: 7rem;
+    left: 0rem;
+    height: 2.25rem;
+    width: 2.50rem;
+    opacity: 1;
+    z-index: 4;
+}
+.CV_content_header #fileIcon #icon_Edit,.CV_content_header #icon_Upload  {
+    width: 100%;
+    height: 100%;
+}
+.CV_content_header #icon_Upload,#Profil_info_content_header #imagefileIcon #icon_Edit,
+#Profil_info_content_header #icon_Ben{
+    width: 95%;
+    height: 95%;
+}
+
+#icon_ArrowDown, #icon_ArrowRight, #icon_ArrowLeft, .CV_content_header  #icon_Ben {
+    width: 3rem;
+    height: 2rem;
+}
+#Profil_info_content_header input {
+    position: fixed;
+    top: 20rem;
+    right: 15rem;
+    height: 4.25rem;
+    width: 4.50rem;
+    opacity: 0;
+    border: 1px solid;
+    z-index: 6;
+}
+#Profil_info_content_header input:hover { cursor: pointer;}
+
+#Profil_info_content_header #imagefileIcon {
+    position: fixed;
+    top: 22rem;
+    right: 18%;
+    height: 1.25rem;
+    width: 1.50rem;
+    padding: 1rem;
+    opacity: 0.7;
+    border-radius: 20%;
+    background-color: white;
+    z-index: 5;
+}
+#Profil_info_content_header #imagefileIcon:hover { cursor: pointer; opacity: 1;}
+
+#Profil_info_content_header #imageDeleteIcon {
+    position: fixed;
+    top: 21rem;
+    right: 11rem;
+    height: 1.25rem;
+    width: 1.50rem;
+    padding: 1rem;
+    opacity: 1;
+    border-radius: 20%;
+    background-color: white;
+    z-index: 5;
+}
+#Profil_info_content_header #imageDeleteIcon:hover { cursor: pointer;}
+
+#Profil_info_content {
+    margin-top: 3rem;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+
+#Profil_info_content_header {
+    display: flex;
+    position: fixed;
+    top: 7.8rem;
+    right: 0;
+    width: 49.9%;
+    height: 3rem;
+    z-index: 2;
+}
+#CV_content_header {
+    display: flex;
+    width: 100%;
+    height: 3.75rem;
+    z-index: 2;
+}
+#Profil_info_content_header p {
+    margin: auto;
+    font-size: 24px;
+}
+#Profil_info_content_header #left, #Profil_info_content_header #right{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+
+#Profil_info_content_perso {
+    margin: auto;
+    margin-top: 1rem;
+    width: 15rem;
+    height: 15rem;
+    border: 3px solid white;
+    border-radius: 100% ;
+    background-color: white;
+    overflow: hidden;
+    z-index: 4;
+}
+#Profil_info_content_perso #profilImage {
+    width: auto;
+    height: 125%;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+#Profil_info_content_perso #p_profilImage_Default {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 100%;
+    }
+#Profil_info_content_perso  #p_profilImage_Default p { 
+    margin: auto;
+    text-align: center;
+    font-size: 10rem;
+}
+
+#info_content {
+    margin: auto;
+    width: 100%;
+}
+#info_content_page {
+    display: flex;
+    flex-direction: row;
+}
+#info_content_page_candidate #info {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 0;
+    margin-top: -2rem;
+    width: 50%;
+    height: 100%;
+    z-index: 0;
+}
+#info_content_page #info {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 0;
+    margin-top: -0.5rem;
+    width: 49.9%;
+    height: 100%;
+    z-index: 0;
+}
+/* --- EDIT PROFIL ---------------------------*/
+#Profil_edit_btn, #Profil_edit_btn_back {
+    display: flex;
+    position: fixed;
+    background-color: transparent;
+    border: none;
+    top: 7rem;
+    left : 50.5%;
+    padding: 1rem;
+    z-index: 4;
+}
+#Upload_edit_btn {
+    display: flex;
+    position: fixed;
+    background-color: transparent;
+    border: none;
+    top: 7rem;
+    right : 0.5rem;
+    padding: 1rem;
+    z-index: 4;  
+}
+
+#Profil_info_edit_content #info {
+    display: flex;
+    width: 50%;
+}
+#Profil_info_edit_content #info input, #Profil_info_edit_content #info select{
+    margin: auto;
+    width: 90%;
+    height: 1.5rem;
+    font-size: 16px;
+    padding-left: 0.5rem;
+    border-radius: 4px;
+    border: none;
+}
+#Profil_info_edit_content #info label{
+    margin-left: 2rem ;
+    margin-top: 1rem ;
+}
+}
