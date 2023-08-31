@@ -8,7 +8,7 @@
       }
 
         return (
-        <div className={`Users_details ${props.params.profilPage === true ? 'Users_details_small' : 'Users_details'}`}>
+        <div className={`users_details ${props.params.profilPage === true ? 'users_details_small' : 'users_details'}`}>
 
 {/* ---- USER INFO ----------------------------------------- */}       
         {users && !candidaty ? 

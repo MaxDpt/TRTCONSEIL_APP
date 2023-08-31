@@ -20,7 +20,7 @@
     margin: 1rem 0;
     margin-right: 1px;
     box-shadow: black 1px 1px 3px 1px;
-    height: 8rem; } }
+    height: 8rem; } 
 
 .users_rows #candidaty_row_title p, .users_rows_select #candidaty_row_title p,
 .users_rows #user_row_title p, .users_rows_select #user_row_title p{
@@ -196,4 +196,5 @@ overflow: scroll;
     z-index: 4;
     border: none;
 
+}
 }

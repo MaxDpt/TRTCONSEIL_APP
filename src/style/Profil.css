@@ -100,12 +100,12 @@
 }
 #Profil_info_content_header input {
     position: fixed;
-    top: 20rem;
-    right: 15rem;
-    height: 4.25rem;
-    width: 4.50rem;
+    top: 22rem;
+    right: 18%;
+    height: 3.25rem;
+    width: 3.50rem;
     opacity: 0;
-    border: 1px solid;
+    border: 1px solid red;
     z-index: 6;
 }
 #Profil_info_content_header input:hover { cursor: pointer;}
