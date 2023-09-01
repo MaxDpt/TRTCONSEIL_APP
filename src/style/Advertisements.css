@@ -371,7 +371,7 @@
     height: 4rem;
     padding-bottom: 0.5rem;
     padding-top: 0.5rem;
-    z-index: 3;
+    z-index: 1;
 }
 #search_filter_content_down {
     display: flex;
@@ -382,7 +382,7 @@
     height: 4rem;
     padding-bottom: 0.5rem;
     padding-top: 0.5rem;
-    z-index: 3;
+    z-index: 1;
 }
 
 #search {
@@ -513,14 +513,14 @@
     background-repeat: no-repeat ;
     background-size: cover;
     background-position-y: center;
-    z-index: 1; }
+    z-index: 0; }
 
 #Advertisements_row_title #p_profilImage_Default {
     width: 2.5rem;
     height: 2.5rem;
     margin-left: 1rem;
     border-radius: 100%;
-    z-index: 1;
+    z-index: 0;
     }
 #Advertisements_row_title #p_profilImage_Default p { 
     margin: auto;

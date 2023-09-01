@@ -43,6 +43,7 @@
     top: 7rem;
     flex-direction: column;
     overflow: scroll;
+    z-index: 1;
 }
 /*----- HEADER ------*/
 .Users_details_header {

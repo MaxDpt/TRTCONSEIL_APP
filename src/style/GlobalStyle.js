@@ -169,10 +169,10 @@ header {
 }
 #Advertisement_form_changeStore { 
     background-color: ${color.BackgroundColor2} ;
-    color : ${color.TextColor02};
+    color : ${color.TextColor01};
 }
 #Advertisement_form_changeStore:hover { 
-    color : ${color.TextColor01};
+    color : ${color.TextColor03};
 }
 
 #icon_ArrowRight, #icon_ArrowLeft,  #icon_Ben {
