@@ -1,6 +1,8 @@
 # TRTCONSEIL_APP
 Application React node.js 
 
+version en ligne hébergé sur Heroku : https://trtconseil-app-03baa502222e.herokuapp.com/
+
 L'application fonctionne avec le back-end de l'api-rest situé sur le projet suivant :
 
 https://github.com/MaxDpt/TRTCONSEIL_API.git
