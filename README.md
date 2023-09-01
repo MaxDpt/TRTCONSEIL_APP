@@ -1,6 +1,10 @@
 # TRTCONSEIL_APP
 Application React node.js 
 
+L'application fonctionne avec le back-end de l'api-rest situé sur le projet suivant :
+
+https://github.com/MaxDpt/TRTCONSEIL_API.git
+
 Deploiement en local :
 
   - Veillez a avoir installé node.js.
