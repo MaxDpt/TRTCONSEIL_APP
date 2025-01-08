@@ -18,12 +18,12 @@ export default function App() {
     <Router>
     <Layout>
       <Routes>
-        <Route  path="/Login" element={<Protected_Advertisement><Login/></Protected_Advertisement>} />
-        <Route  path="/Registration" element={<Protected_Advertisement><Registration/></Protected_Advertisement>} />
-        <Route  path="/Profil" element={<Protected_Users><Profil/></Protected_Users>} />
-        <Route  path="/Advertisement" element={<Protected_Login><Advertisement/></Protected_Login>} />
-        <Route  path="/BackOffice" element={<Protected_Admin><BackOffice/></Protected_Admin>} />
-        <Route  path="/" element={<Protected_Advertisement><Home/></Protected_Advertisement>} />
+        <Route  path="/Login" element={<Protected_Advertisement> <Login/> </Protected_Advertisement>} />
+        <Route  path="/Registration" element={<Protected_Advertisement> <Registration/> </Protected_Advertisement>} />
+        <Route  path="/Profil" element={<Protected_Users> <Profil/> </Protected_Users>} />
+        <Route  path="/Advertisement" element={<Protected_Login> <Advertisement/> </Protected_Login>} />
+        <Route  path="/BackOffice" element={<Protected_Admin> <BackOffice/> </Protected_Admin>} />
+        <Route  path="/" element={<Protected_Advertisement> <Home/> </Protected_Advertisement>} />
       </Routes>
     </Layout>
     </Router>

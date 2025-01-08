@@ -18,7 +18,7 @@ header {
     background-color: ${color.HeaderColor}; }
 
 #header_Link_Title, #header_Link {
-    color : ${color.TextColor01}; }
+    color : ${color.TextColor02}; }
 
 #header_btns #header_Link_logout {
     color: ${color.ErrorMessage};
@@ -122,7 +122,7 @@ header {
 }
 #Advertisements_details_header {
     background-color: ${color.HeaderColor};
-    color : ${color.TextColor01};  
+    color : ${color.TextColor02};  
 }
 @media screen and (max-width: 850px) {  
     #Advertisements_details_header {
@@ -214,11 +214,11 @@ header {
 }
 #confirmation_content #title {
     background-color: ${color.HeaderColor};
-    color : ${color.TextColor01};
+    color : ${color.TextColor02};
  }
  #confirmation_content_btns button { 
     background-color: ${color.HeaderColor};
-    color : ${color.TextColor01};
+    color : ${color.TextColor02};
  }
  #confirmation_content_btns button:hover {
  color : ${color.TextColor01_Hover} }
@@ -265,7 +265,7 @@ color : ${color.TextColor02};
 }
 .Users_details_header, .Users_details_header_down {
     background-color: ${color.HeaderColor};
-    color : ${color.TextColor01};  
+    color : ${color.TextColor02};  
 }
 @media screen and (max-width: 850px) { 
 .Users_details_header, .Users_details_header_down {
